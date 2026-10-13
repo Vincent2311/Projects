@@ -229,7 +229,7 @@ const zh = {
   "Revise grasp parameters and procedures such as retries or re-grounding.": "调整抓取参数，或修改流程，例如增加重试、重新定位目标。",
   "Retain and reuse refined skills": "保存改进后的技能",
   "Build on the current skill and save each revision for later attempts.": "在当前版本上继续改进，保存新版本供后续任务复用。",
-  "In RoboLab, show a photo with": "RoboLab 测试了两种图片查询：当次附上照片，说",
+  "Show a photo with": "附上照片，说",
   "“go pick up this.”": "“去拿这个”；",
   "Or recall an earlier photo with": "或先前已提供照片，这次只说",
   "“go pick up mine.”": "“去拿我的”。",
