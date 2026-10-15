@@ -20,6 +20,8 @@ const zh = {
   "Remember the person and the scene. Check actions before contact. Recover from failures and retain what works.": "记住用户偏好和场景变化，执行前检查接触风险，失败后恢复任务，并保留有效的恢复经验。",
   "Explore the method": "了解方法",
   "View the results": "查看结果",
+  "Code": "代码",
+  "CarryOn code on GitHub": "GitHub 上的 CarryOn 代码仓库",
   "Video": "视频",
   "Simulation and real-robot overview. Playback speeds are labelled.": "仿真与真机演示，播放速度已在画面中标注。",
   "Memory-assisted scene selection": "借助记忆选对场景",
