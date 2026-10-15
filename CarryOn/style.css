@@ -132,3 +132,6 @@ html { scroll-padding-top: 28px; }
 @media (max-width: 600px) {
   .challenge-grid .challenge-answer { font-size: 17px; }
 }
+
+/* Let the Chinese motivation title use the full content width. */
+html[lang="zh-CN"] #motivation .section-heading { max-width: none; }

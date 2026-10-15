@@ -13,7 +13,7 @@ const zh = {
   "Integrated": "完整演示",
   "A harness around a frozen VLA": "无需更新 VLA 权重的机器人运行框架",
   "A Dual-Loop Harness for": "双循环框架，让机器人",
-  "Personalized": "按需规划",
+  "Personalized": "定制化规划",
   "and": "，",
   "Reliable": "可靠执行",
   "Robot Assistance": "。",
@@ -75,11 +75,11 @@ const zh = {
   "becomes the next decision.": "让后续规划更合适。",
   "Remember preferences, locate personal objects, and revise both the plan and memory when new evidence arrives.": "记住用户偏好，找到用户的物品；新观察与记忆不符时，及时调整计划并更新记忆。",
   "RoboLab / four scenes": "RoboLab / 四个场景",
-  "Less search.": "少一些搜索，",
-  "More ways to ask.": "多几种表达。",
+  "Less search.": "减少搜索，",
+  "Faster planning.": "更快规划。",
   "Text": "文本",
   "Image": "图像",
-  "Name the object; memory locates its scene without a camera search.": "用户说出物品名称后，机器人可直接查询记忆中的位置，无需逐个场景拍照搜索。",
+  "Name the object; memory locates it without searching each scene.": "用户说出物品名称后，机器人可直接查询记忆中的位置，无需逐个场景搜索。",
   "Correct first-endpoint dispatch": "首次派发到正确场景",
   "88 requests per condition": "每组 88 次请求",
   "Without memory": "无记忆",
@@ -95,8 +95,7 @@ const zh = {
   "Query": "查询方式",
   "Memory corrected": "记忆更新正确",
   "Follow-up dispatch": "下次派发正确",
-  "Correction requires writing the new location": "更新记忆时，既要记录新位置",
-  "removing the stale association.": "也要删除旧的位置关联。",
+  "Update memory by recording the new location and removing the stale association.": "更新记忆时，记录新位置，删除旧的位置关联。",
   "On the real robot": "真机实验",
   "Context changes what gets dispatched.": "用户不同、场景不同，任务也随之调整。",
   "Sandwich": "三明治",
@@ -328,7 +327,7 @@ function setLanguage(next){
   const button=document.getElementById('language-toggle');
   button.textContent=next==='zh'?'English':'中文';button.lang=next==='zh'?'en':'zh-CN';
   button.setAttribute('aria-label',next==='zh'?'Switch to English':'切换到中文');
-  document.title=next==='zh'?'CarryOn | 按需规划，可靠执行':'CarryOn | Personalized and Reliable Robot Assistance';
+  document.title=next==='zh'?'CarryOn | 定制化规划，可靠执行':'CarryOn | Personalized and Reliable Robot Assistance';
   const full=document.getElementById('figure-full');
   if(full?.getAttribute('src')){
     const figure=[...document.querySelectorAll('[data-figure]')].find(e=>e.dataset.figure===full.getAttribute('src'));
