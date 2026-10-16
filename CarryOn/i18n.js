@@ -20,6 +20,8 @@ const zh = {
   "Remember the person and the scene. Check actions before contact. Recover from failures and retain what works.": "记住用户偏好和场景变化，执行前检查接触风险，失败后恢复任务，并保留有效的恢复经验。",
   "Explore the method": "了解方法",
   "View the results": "查看结果",
+  "Paper": "论文",
+  "Read the CarryOn paper on arXiv": "在 arXiv 阅读 CarryOn 论文",
   "Code": "代码",
   "CarryOn code on GitHub": "GitHub 上的 CarryOn 代码仓库",
   "Video": "视频",
